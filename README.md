@@ -42,3 +42,5 @@ steps:
   - touch api/server.js
   - mkdir config
   - touch config/dependencies.js
+  - make sure helmet is working (test this by looking at the headers section -> if it says express in there and only has 6-7: not working, if express is missing and 12-13: working)
+  - touch auth/characterRouter.js
